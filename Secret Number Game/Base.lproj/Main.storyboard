@@ -86,7 +86,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.23595792898765966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="Background" destination="8bC-Xf-vdC" id="FEI-bD-pIm"/>
+                        <outlet property="currentGuess" destination="Dme-bn-jiZ" id="grd-ya-QJd"/>
+                        <outlet property="guessSlider" destination="vTh-5p-2jB" id="335-3r-oY3"/>
+                        <outlet property="lastGuess" destination="oLC-Fr-u87" id="7Ex-0L-9ui"/>
+                        <outlet property="numberOfGuesses" destination="aJo-pD-pgS" id="9wy-At-sw2"/>
+                        <outlet property="secretNumber" destination="YhL-Hr-9YU" id="Rqx-A4-dtM"/>
+                        <outlet property="submitButton" destination="Mvc-I1-zK2" id="Y4o-CE-RZb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
